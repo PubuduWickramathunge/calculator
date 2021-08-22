@@ -1,4 +1,4 @@
-package V1;
+package com.kelani.uni.v1;
 import java.util.Scanner;
 import java.io.*;
 
