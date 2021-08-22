@@ -1,4 +1,4 @@
-package com.kelani.uni;
+package V1;
 
 public class HelloWorld {
     public static void main(String [] args) {
