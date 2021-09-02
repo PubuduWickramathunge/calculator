@@ -6,6 +6,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class Main {
+    //Single responsibility principle
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
             System.out.println("Please provide the operation as an argument");

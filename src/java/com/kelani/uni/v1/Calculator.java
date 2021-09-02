@@ -1,4 +1,5 @@
 package com.kelani.uni.v1;
+
 import java.util.Scanner;
 import java.io.*;
 
@@ -10,18 +11,20 @@ public class Calculator {
         int result = 0;
 
 
-
-        Scanner file = new Scanner ( new File("numbers.txt"));
+        Scanner file = new Scanner(new File("numbers.txt"));
         int firstNumber = file.nextInt();
         int secondNumber = file.nextInt();
 
-        switch(operator){
-            case ("add"): result = firstNumber+secondNumber;
-            break;
-            case ("sub"): result = firstNumber-secondNumber;
-            break;
-            case ("mul"): result = firstNumber*secondNumber;
-            break;
+        switch (operator) {
+            case ("add"):
+                result = firstNumber + secondNumber;
+                break;
+            case ("sub"):
+                result = firstNumber - secondNumber;
+                break;
+            case ("mul"):
+                result = firstNumber * secondNumber;
+                break;
 
         }
         System.out.println(result);
