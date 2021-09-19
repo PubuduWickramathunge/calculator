@@ -4,6 +4,6 @@ package com.kelani.uni.v5.operation;
 //we use same method signature so interface class is better here
 public interface Operation {
 
-    Double execute(Double[] numbers);
+    Double execute(Double[] numbers) throws InvalidCalOperationException;
 
 }
