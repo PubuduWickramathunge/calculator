@@ -15,7 +15,7 @@ public class OperationFactory {
 
         } else if (operator.equals("mul")) {
             operation = new MulOperation();
-        }else if (operator.equals("div")) {
+        } else if (operator.equals("div")) {
             operation = new DivOperation(); //OCP violated but this is a known violation
 
         }

@@ -11,10 +11,9 @@ import com.kelani.uni.v5.ui.UI;
 
 import java.io.IOException;
 
-
 public class Main {
     //main class is the coordinator
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
         Inputs inputs = new CommandLineInputs(args);
         NumberRepository numberRepository = new FileNumberRepository();
         OperationFactory operationFactory = new OperationFactory();

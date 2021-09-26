@@ -14,7 +14,7 @@ public class AddOperationTest {
     //positive + negative => correct answer => -1, +2 => 1
 
     @Test
-    public void should_add_positive_values(){
+    public void should_add_positive_values() {
 
         AddOperation addOperation = new AddOperation();
         Double result = addOperation.execute(new Double[]{5.0, 6.0});
@@ -24,7 +24,7 @@ public class AddOperationTest {
     }
 
     @Test
-    public void should_add_zeros(){
+    public void should_add_zeros() {
 
         AddOperation addOperation = new AddOperation();
         Double result = addOperation.execute(new Double[]{0.0, 0.0});
@@ -34,7 +34,7 @@ public class AddOperationTest {
     }
 
     @Test
-    public void should_add_negative_values(){
+    public void should_add_negative_values() {
 
         AddOperation addOperation = new AddOperation();
         Double result = addOperation.execute(new Double[]{-1.0, -2.0});
